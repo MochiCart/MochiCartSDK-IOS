@@ -21,7 +21,12 @@
 @property SEL doneCallbackAction;
 @property (nonatomic, retain) id doneCallbackReference;
 
+@property (nonatomic, retain) id cancelCallbackTarget;
+@property SEL cancelCallbackAction;
+@property (nonatomic, retain) id cancelCallbackReference;
+
 - (id)initWithFrame:(CGRect)frame title:(NSString *)title pickerItems:(NSArray *)pickerItems;
 - (void)setDoneCallback:(id)target action:(SEL)action reference:(id)reference;
+- (void)setCancelCallback:(id)target action:(SEL)action reference:(id)reference;
 
 @end
