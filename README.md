@@ -9,7 +9,7 @@ MochiCart is currently only available for iOS at this point in time. We do howev
 
 Sample Cart
 ================
-We've included a sample cart for your convenience. You can use this for quickly creating store apps or as a reference for how to integrate mochiCart.
+We've included a sample cart located in the SampleCart.zip file for your convenience. You can use this for quickly creating store apps or as a reference for how to integrate mochiCart. 
 
 MochiCartSDK-IOS Integration Guide
 ================
