@@ -30,8 +30,8 @@ First, download the MochiCart iOS SDK. Once you've downloaded it, open the zip f
 Now, open your XCode app project and expand the "Frameworks" folder in your project. Drag the MochiCartSDK.framework file and libPayPalMobile.a files into your Frameworks folder.
 
 <p align="center">
-	<img src="http://www.mochicart.com/assets/img/sdk/ios/1.png" width="50%" />
-    <img src="http://www.mochicart.com/assets/img/sdk/ios/2.png" width="50%" />
+	<img src="http://www.mochicart.com/assets/img/sdk/ios/1.png" width="100%" />
+    <img src="http://www.mochicart.com/assets/img/sdk/ios/2.png" width="100%" />
 </p>
 
 ##Step 2
