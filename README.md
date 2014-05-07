@@ -3,7 +3,7 @@ What Is MochiCart?
 ================
 [MochiCart](http://www.mochicart.com/) is the easiest way to sell physical products in your new or existing iOS apps, for free. We've developed MochiCart as a service that we ourselves as app developers wanted but could not find. Everything that you would expect from an incredible cart system has been integrated into MochiCart. We've made the integration process so easy, that it literally takes 5 minutes or less to freshly integrate a complete MochiCart store into a new app, or any of your existing apps.
 
-Please register on [MochiCart.com](http://www.mochicart.com/) if you have not yet. Registration is free, and is required to administer of your stores.
+Please register on [MochiCart.com](http://www.mochicart.com/) if you have not yet. Registration is free, and is required to administer your stores.
 
 MochiCart is currently only available for iOS at this point in time. We do however have plans to develop SDKs for other popular mobile operating systems in the near future, effectively making your stores cross compatible and allowing you to reach the largest amount of potential customers possible.
 
