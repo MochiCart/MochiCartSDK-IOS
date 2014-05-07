@@ -1,5 +1,5 @@
 <p align="center">
-![](http://www.mochicart.com/Assets/img/github/heading.png)
+	<img src="http://www.mochicart.com/Assets/img/github/heading.png" />
 </p>
 
 What Is MochiCart?
@@ -30,8 +30,8 @@ First, download the MochiCart iOS SDK. Once you've downloaded it, open the zip f
 Now, open your XCode app project and expand the "Frameworks" folder in your project. Drag the MochiCartSDK.framework file and libPayPalMobile.a files into your Frameworks folder.
 
 <p align="center">
-![](http://www.mochicart.com/assets/img/sdk/ios/1.png)
-![](http://www.mochicart.com/assets/img/sdk/ios/2.png)
+	<img src="http://www.mochicart.com/assets/img/sdk/ios/1.png" />
+    <img src="http://www.mochicart.com/assets/img/sdk/ios/2.png" />
 </p>
 
 ##Step 2
@@ -44,8 +44,8 @@ Note: Your project should also have **CoreGraphics.framework**, **UIKit.framewor
 Note: Make sure **MochiCartSDK.framework** and **libPayPalMobile.a** are also listed under the "Link Binary With Libraries" section. This should have happened by default when you dragged the 2 files into the "Frameworks" folder of your project. If they are not listed, add them by dragging the 2 files from the "Frameworks" folder in the project, onto the "Link Binary With Libraries" list.
 
 <p align="center">
-![](http://www.mochicart.com/assets/img/sdk/ios/3.png)
-![](http://www.mochicart.com/assets/img/sdk/ios/4.png)
+	<img src="http://www.mochicart.com/assets/img/sdk/ios/3.png" />
+	<img src="http://www.mochicart.com/assets/img/sdk/ios/4.png" />
 </p>
 
 ##Step 3
@@ -56,8 +56,8 @@ Once there, scroll down the list of values and find the section that is called "
 **Note:** If you do not add the **-ObjC** and **-lc++** to the "Other Linker Flags", you will receive a large number of linker errors and your project will fail to build.
 
 <p align="center">
-![](http://www.mochicart.com/assets/img/sdk/ios/5.png)
-![](http://www.mochicart.com/assets/img/sdk/ios/6.png)
+	<img src="http://www.mochicart.com/assets/img/sdk/ios/5.png" />
+	<img src="http://www.mochicart.com/assets/img/sdk/ios/6.png" />
 </p>
 
 ##Step 4
@@ -70,6 +70,6 @@ We can now display our store anywhere within the app that can utilize a UINaviga
 You're done! Run the project, if the build succeeds you've successfully integrated MochiCart!
 
 <p align="center">
-![](http://www.mochicart.com/assets/img/sdk/ios/7.png)
-![](http://www.mochicart.com/assets/img/sdk/ios/8.png)
+	<img src="http://www.mochicart.com/assets/img/sdk/ios/7.png" />
+	<img src="http://www.mochicart.com/assets/img/sdk/ios/8.png" />
 </p>
