@@ -1,4 +1,7 @@
+<p align="center">
 ![](http://www.mochicart.com/Assets/img/github/heading.png)
+</p>
+
 What Is MochiCart?
 ================
 [MochiCart](http://www.mochicart.com/) is the easiest way to sell physical products in your new or existing iOS apps, for free. We've developed MochiCart as a service that we ourselves as app developers wanted but could not find. Everything that you would expect from an incredible cart system has been integrated into MochiCart. We've made the integration process so easy, that it literally takes 5 minutes or less to freshly integrate a complete MochiCart store into a new app, or any of your existing apps.
@@ -26,8 +29,10 @@ First, download the MochiCart iOS SDK. Once you've downloaded it, open the zip f
 
 Now, open your XCode app project and expand the "Frameworks" folder in your project. Drag the MochiCartSDK.framework file and libPayPalMobile.a files into your Frameworks folder.
 
+<p align="center">
 ![](http://www.mochicart.com/assets/img/sdk/ios/1.png)
 ![](http://www.mochicart.com/assets/img/sdk/ios/2.png)
+</p>
 
 ##Step 2
 Next, you need to add a few additional native frameworks to your project. To do this, navigate to the "Build Phases" section of your project. If you do not know how to do this, please reference the tutorial video above. Once there, expand the "Link Binary With Libraries" section.
@@ -38,8 +43,10 @@ Note: Your project should also have **CoreGraphics.framework**, **UIKit.framewor
 
 Note: Make sure **MochiCartSDK.framework** and **libPayPalMobile.a** are also listed under the "Link Binary With Libraries" section. This should have happened by default when you dragged the 2 files into the "Frameworks" folder of your project. If they are not listed, add them by dragging the 2 files from the "Frameworks" folder in the project, onto the "Link Binary With Libraries" list.
 
+<p align="center">
 ![](http://www.mochicart.com/assets/img/sdk/ios/3.png)
 ![](http://www.mochicart.com/assets/img/sdk/ios/4.png)
+</p>
 
 ##Step 3
 Almost there! Only a few things left to do. Now we need to add values to something called "Other Linker Flags" within your app. Navigate to the "Build Settings" section of your project. It should be a tab to the left of the "Build Phases" tab.
@@ -48,8 +55,10 @@ Once there, scroll down the list of values and find the section that is called "
 
 **Note:** If you do not add the **-ObjC** and **-lc++** to the "Other Linker Flags", you will receive a large number of linker errors and your project will fail to build.
 
+<p align="center">
 ![](http://www.mochicart.com/assets/img/sdk/ios/5.png)
 ![](http://www.mochicart.com/assets/img/sdk/ios/6.png)
+</p>
 
 ##Step 4
 The rest is a walk in the park. For the sake of this guide, we'll do the most basic integration steps for MochiCart by setting up your entire app project as a MochiCart store. Open your AppDelegate.m file and add the following import statement underneath the #import "AppDelegate.h" line, **#import &lt;MochiCartSDK/MochiCart.h&gt;**
@@ -60,6 +69,7 @@ We can now display our store anywhere within the app that can utilize a UINaviga
 
 You're done! Run the project, if the build succeeds you've successfully integrated MochiCart!
 
+<p align="center">
 ![](http://www.mochicart.com/assets/img/sdk/ios/7.png)
 ![](http://www.mochicart.com/assets/img/sdk/ios/8.png)
-
+</p>
