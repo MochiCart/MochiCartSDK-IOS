@@ -10,8 +10,4 @@
 
 @interface MCProductsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
-@property (nonatomic, retain) UITableView *productsTable;
-@property (nonatomic, retain) NSArray *products;
-@property (nonatomic, retain) UIView *loadingView;
-
 @end

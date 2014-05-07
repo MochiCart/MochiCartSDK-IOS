@@ -10,8 +10,6 @@
 
 @interface MCAPIController : NSObject <NSURLConnectionDelegate, NSURLConnectionDataDelegate>
 
-@property (nonatomic, retain) NSMutableDictionary *connectionInfos;
-
 + (MCAPIController *)sharedAPIController;
 - (void)doAsyncRequestWithCallback:(NSString *)method arguments:(NSDictionary *)arguments target:(id)target action:(SEL)action;
 - (void)doAsyncPostWithCallback:(NSString *)method arguments:(NSDictionary *)arguments post:(NSDictionary *)post target:(id)target action:(SEL)action;

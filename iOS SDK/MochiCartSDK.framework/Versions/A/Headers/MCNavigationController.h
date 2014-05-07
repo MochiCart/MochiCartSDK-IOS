@@ -10,6 +10,6 @@
 
 @interface MCNavigationController : UINavigationController
 
-- (MCNavigationController *)initWithStorefront;
+- (MCNavigationController *)initWithStorefront:(BOOL)modal;
 
 @end

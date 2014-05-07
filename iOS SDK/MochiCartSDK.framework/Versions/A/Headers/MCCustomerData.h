@@ -11,12 +11,9 @@
 @interface MCCustomerData : NSObject
 
 @property (nonatomic, retain) NSMutableArray *cart;
-
 @property (nonatomic, retain) NSDictionary *orderShippingAddress;
 @property (nonatomic, retain) NSDictionary *orderShippingMethod;
-
 @property (nonatomic, retain) NSString *customerId;
-@property (nonatomic, retain) NSString *accessToken;
 
 + (MCCustomerData *)sharedCustomerData;
 + (BOOL)validateAccessToken:(NSString *)accessToken;
