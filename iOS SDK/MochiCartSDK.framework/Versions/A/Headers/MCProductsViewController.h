@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MCProductsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface MCProductsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
 @end

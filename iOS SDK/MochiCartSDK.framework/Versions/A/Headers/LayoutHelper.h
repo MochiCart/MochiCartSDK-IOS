@@ -21,6 +21,8 @@
 
 + (void)fadeView:(UIView *)view fadeIn:(BOOL)fadeIn;
 
++ (BOOL)iPad;
+
 + (float)getScreenWidth;
 + (float)getScreenHeight;
 
