@@ -10,6 +10,8 @@ Please register on [MochiCart.com](http://www.mochicart.com/) if you have not ye
 
 MochiCart is currently only available for iOS at this point in time. We do however have plans to develop SDKs for other popular mobile operating systems in the near future, effectively making your stores cross compatible and allowing you to reach the largest amount of potential customers possible.
 
+The MochiCart SDK is compatible with all iOS devices.
+
 Sample Cart
 ================
 We've included a sample cart located in the SampleCart.zip file for your convenience. You can use this for quickly creating store apps or as a reference for how to integrate mochiCart. 
